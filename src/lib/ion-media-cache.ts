@@ -59,7 +59,7 @@ export class CustomCache {
         this.cacheDirectoryType = o.cacheDirectoryType || 'external';
         this.imageReturnType = o.imageReturnType || 'uri';
         /** Name directory cache */
-        this.cacheDirectoryName = 'ion-media-cache';
+        this.cacheDirectoryName = o.cacheDirectoryName || 'ion-media-cache';
         /** Indicates if the image is still loading */
         this.isLoad = o.isLoad || true;
         this.cache_expire = o.cache_expire;
